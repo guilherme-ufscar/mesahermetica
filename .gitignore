@@ -1,0 +1,41 @@
+# ============================================
+# MESA HERMÉTICA — .gitignore
+# ============================================
+
+# Variáveis de ambiente (NUNCA comitar)
+.env
+
+# Documentos internos (manter fora do repo)
+*.md
+!README.md
+
+# E-mails salvos localmente (dev)
+storage/emails/
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+error_log
+
+# Temporários
+*.tmp
+*.bak
+
+# Node (caso use build tools no futuro)
+node_modules/
+package-lock.json
+
+# PHP
+vendor/
+composer.lock
